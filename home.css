@@ -283,19 +283,71 @@ footer{
 
     .feminino, .produtos-femininos div{
         width: 100%;
+        padding: 15px;
+    }
+    
+    .feminino, .produtos-femininos img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .texto{
+        font-size: 20px;
+    }
+    
+    footer{
+        font-size: 16px;
+        padding: 20px;
+    }
+    
+    .produtos-femininos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .produtos-femininos div{
+        width: 100%;
+        padding: 15px;
+        margin: 10px 0;
+    }
+    
+    .produtos-femininos img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .produtos-femininos h2{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    
+    .produtos-femininos h3{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .feminino h2, .produtos-femininos h2{
+        font-size: 18px;
+    }
+    .feminino h3, .produtos-femininos h3{
+        font-size: 14px;
+    }
+    .feminino, .produtos-femininos div{
+        width: 100%;
+        padding: 15px;
     }
     .feminino, .produtos-femininos img{
         width: 100%;
         height: auto;
     }
-    .texto{
+    .popular h2{
         font-size: 20px;
     }
-    .popular h2{
-        font-size: 24px;
-    }
     .popular p{
-        font-size: 14px;
+        font-size: 12px;
+    }
+    .popular{
+        padding: 20px 10px;
     }
     .navegacao ul li{
         padding: 10px;
@@ -307,7 +359,7 @@ footer{
         width: 80px;
     }
     .headertop ul li a img{
-        width: 25px;
+        width: 24px;
     }
     .headertop ul{
         gap: 10px;
@@ -332,75 +384,7 @@ footer{
     .navegacao ul{
         flex-direction: column;
         align-items: center;
-    }
-    .navegacao ul li{
-        padding: 5px;
-    }
-    .navegacao ul li a{
-        font-size: 14px;
-    }
-    .popular{
-        padding: 20px 10px;
-    }
-    .popular h2{
-        font-size: 20px;
-    }
-    .popular p{
-        font-size: 12px;
-    }
-    .produtos{
-        max-width: 100%;
-        padding: 10px;
-    }
-    .produtos .item{
-        height: 150px;
-    }
-    .produtos .item img{
-        height: 100%;
     }   
-    .feminino h2, .produtos-femininos h2{
-        font-size: 18px;
-    }
-    .feminino h3, .produtos-femininos h3{
-        font-size: 14px;
-    }
-    .feminino, .produtos-femininos div{
-        width: 100%;
-        padding: 10px;
-    }
-    .feminino, .produtos-femininos img{
-        width: 100%;
-        height: auto;
-    }
-    .texto{
-        font-size: 18px;
-    }
-    footer{
-        font-size: 16px;
-        padding: 20px;
-    }
-    .produtos-femininos{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .produtos-femininos div{
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 10px;
-    }
-    .produtos-femininos img{
-        width: 100%;
-        height: auto;
-    }
-    .produtos-femininos h2{
-        font-size: 18px;
-        margin-bottom: 10px;
-    }
-    .produtos-femininos h3{
-        font-size: 14px;
-        margin-bottom: 10px;
-    }
 }
 
 @media (min-width: 768px) and (max-width: 1024px){
@@ -415,10 +399,6 @@ footer{
         height: 250px;
     }
 
-    .item img{
-        height: 100%;
-    }
-
     .feminino, .produtos-femininos {
         flex-direction: row;
         flex-wrap: wrap;
@@ -426,124 +406,21 @@ footer{
     }
 
     .feminino, .produtos-femininos div{
-        width: 300px;
+        width: 45%;
+        margin: 10px;
     }
+    
     .feminino, .produtos-femininos img{
         width: 100%;
         height: auto;
     }
+    
     .texto{
         font-size: 22px;
     }
-    .popular h2{
-        font-size: 26px;
-    }
-    .popular p{
-        font-size: 14px;
-    }
-    .navegacao ul li{
-        padding: 15px;
-    }
-    .navegacao ul li a{
-        font-size: 18px;
-    }
-    .headertop img{
-        width: 90px;
-    }
-    .headertop ul li a img{
-        width: 28px;
-    }
-    .headertop ul{
-        gap: 15px;
-    }
-    .headertop{
-        flex-direction: row;
-        align-items: center;
-    }
-    .headertop ul{
-        justify-content: flex-end;
-    }
-    .headertop ul li{
-        padding: 8px;
-    }
-    .headertop ul li a img{
-        width: 24px;
-    }
-    .navegacao{
-        flex-direction: row;
-        justify-content: center;
-    }
-    .navegacao ul{
-        flex-direction: row;
-        justify-content: center;
-    }
-    .navegacao ul li{
-        padding: 10px;
-    }
-    .navegacao ul li a{
-        font-size: 16px;
-    }
-    .popular{
-        padding: 30px 20px;
-    }
-    .popular h2{
-        font-size: 22px;
-    }
-    .popular p{
-        font-size: 12px;
-    }
-    .produtos{
-        max-width: 100%;
-        padding: 20px;
-    }
-    .produtos .item{
-        height: 200px;
-    }
-    .produtos .item img{
-        height: 100%;
-    }
-    .feminino h2, .produtos-femininos h2{
-        font-size: 20px;
-    }
-    .feminino h3, .produtos-femininos h3{
-        font-size: 16px;
-    }
-    .feminino, .produtos-femininos div{
-        width: 300px;
-        padding: 15px;
-    }
-    .feminino, .produtos-femininos img{
-        width: 100%;
-        height: auto;
-    }
-    .texto{
-        font-size: 20px;
-    }
+    
     footer{
         font-size: 18px;
         padding: 25px;
-    }
-    .produtos-femininos{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .produtos-femininos div{
-        width: 300px;
-        padding: 15px;
-        margin: 10px;
-    }
-    .produtos-femininos img{
-        width: 100%;
-        height: auto;
-    }
-    .produtos-femininos h2{
-        font-size: 20px;
-        margin-bottom: 10px;
-    }
-    .produtos-femininos h3{
-        font-size: 16px;
-        margin-bottom: 10px;
     }
 }
