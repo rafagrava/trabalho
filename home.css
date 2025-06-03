@@ -161,7 +161,6 @@ header{
 
 .feminino{
     background-color: #73655A;
-    border-radius: 0;
 }
 
 .feminino h2{
@@ -182,8 +181,7 @@ header{
 .feminino, .produtos-femininos {
     display: flex;
     justify-content: space-around;
-    padding: 0;
-    gap: 0;
+    align-items: center;
 }
 
 .feminino, .produtos-femininos div{
@@ -260,167 +258,29 @@ footer{
 
 @media (max-width: 767px){
     .produtos{
-        grid-template-areas: 
-        "calcas"
-        "camisas"
-        "body"
-        "jeans";
-        grid-template-columns: 1fr;
+        width: 100%; 
     }
-
-    .item{
-        height: 200px;
-    }
-
-    .item img{
-        height: 100%;
-    }
-
     .feminino, .produtos-femininos {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .feminino, .produtos-femininos div{
-        width: 100%;
-        padding: 15px;
-    }
-    
-    .feminino, .produtos-femininos img{
-        width: 100%;
-        height: auto;
-    }
-    
-    .texto{
-        font-size: 20px;
-    }
-    
-    footer{
-        font-size: 16px;
-        padding: 20px;
-    }
-    
-    .produtos-femininos{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .produtos-femininos div{
-        width: 100%;
-        padding: 15px;
-        margin: 10px 0;
-    }
-    
-    .produtos-femininos img{
-        width: 100%;
-        height: auto;
-    }
-    
-    .produtos-femininos h2{
-        font-size: 18px;
-        margin-bottom: 10px;
-    }
-    
-    .produtos-femininos h3{
-        font-size: 14px;
-        margin-bottom: 10px;
-    }
-    .feminino h2, .produtos-femininos h2{
-        font-size: 18px;
-    }
-    .feminino h3, .produtos-femininos h3{
-        font-size: 14px;
-    }
-    .feminino, .produtos-femininos div{
-        width: 100%;
-        padding: 15px;
-    }
-    .feminino, .produtos-femininos img{
-        width: 100%;
-        height: auto;
-    }
-    .popular h2{
-        font-size: 20px;
-    }
-    .popular p{
-        font-size: 12px;
-    }
-    .popular{
-        padding: 20px 10px;
-    }
-    .navegacao ul li{
-        padding: 10px;
-    }
-    .navegacao ul li a{
-        font-size: 16px;
-    }
-    .headertop img{
-        width: 80px;
-    }
-    .headertop ul li a img{
-        width: 24px;
-    }
-    .headertop ul{
-        gap: 10px;
-    }
-    .headertop{
-        flex-direction: column;
-        align-items: center;
-    }
-    .headertop ul{
-        justify-content: center;
-    }
-    .headertop ul li{
-        padding: 5px;
-    }
-    .headertop ul li a img{
-        width: 20px;
-    }
-    .navegacao{
+        width: 100%; 
         flex-direction: column;
         align-items: center;
     }
     .navegacao ul{
         flex-direction: column;
         align-items: center;
-    }   
-}
-
-@media (min-width: 768px) and (max-width: 1024px){
-    .produtos{
-        grid-template-areas: 
-        "calcas camisas"
-        "body jeans";
-        grid-template-columns: 1fr 1fr;
     }
-
-    .item{
-        height: 250px;
-    }
-
-    .feminino, .produtos-femininos {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .feminino, .produtos-femininos div{
-        width: 45%;
-        margin: 10px;
-    }
-    
-    .feminino, .produtos-femininos img{
+    .navegacao ul li{
         width: 100%;
-        height: auto;
+        text-align: center;
     }
-    
-    .texto{
-        font-size: 22px;
+    .item{
+        width: 100%;
     }
-    
-    footer{
+    .item button{
+        width: 100%;
+        padding: 10px;
         font-size: 18px;
-        padding: 25px;
     }
+    
 }
+
